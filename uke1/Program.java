@@ -4,6 +4,9 @@ class Program {
         int tall;
         tall = 2+3;
         System.out.println("Dette er et tall: " + tall);
+
+        // Endring her for å teste git branch, pull request, merge branch
+        System.out.println("Endring her");
     }
 }
 // public - synlig utenfor klassen
