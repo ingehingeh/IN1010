@@ -7,6 +7,9 @@ class Program {
 
         // Endring her for å teste git branch, pull request, merge branch
         System.out.println("Endring her");
+
+        // Endring 2 her
+        System.out.println("Endring 2 her");
     }
 }
 // public - synlig utenfor klassen
