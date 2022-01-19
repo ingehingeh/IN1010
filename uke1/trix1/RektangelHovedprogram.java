@@ -15,7 +15,7 @@ class RektangelHovedprogram {
         System.out.println("Omkrets av to: " + to.omkrets());
 
         en.reduserLengde(7);
-        to.reduserBredde(2);
+        to.reduserBredde(200);
         
         System.out.println("Ny areal av en: " + en.areal());
         System.out.println("Ny areal av to: " + to.areal());
