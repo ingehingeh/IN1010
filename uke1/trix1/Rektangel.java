@@ -19,11 +19,21 @@ class Rektangel {
     }
 
     public void reduserLengde(int reduksjon) {
-        lengde -= reduksjon;
+        if (lengde - reduksjon < 1) {
+            System.out.println("Obs: Kan ikke redusere lengde så mye");
+        }
+        else {
+            lengde -= reduksjon;
+        }
     }
 
     public void reduserBredde(int reduksjon) {
-        bredde -= reduksjon;
+        if (bredde - reduksjon < 1) {
+            System.out.println("Obs: Kan ikke redusere bredde så mye");
+        }
+        else {
+            bredde -= reduksjon;
+        }
     }
 
     public double areal(){
