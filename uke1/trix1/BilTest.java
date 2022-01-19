@@ -1,4 +1,4 @@
-// // 01.17: Bil-objekter
+// 01.17: Bil-objekter
 
 public class BilTest{
     public static void main(String[] args) {

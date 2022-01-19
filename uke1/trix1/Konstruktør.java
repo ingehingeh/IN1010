@@ -4,6 +4,7 @@
 // Endre programmet slik at instansvariablene blir 
 // satt ved hjelp av konstruktør i stedet for metodene.*/
 
+/*
 public class Person {
     String navn; 
     int alder; 
@@ -13,3 +14,4 @@ public class Person {
         alder = a;
     }   
 }
+*/
