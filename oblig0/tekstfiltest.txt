@@ -1,0 +1,4 @@
+Dette er en tekstfil
+Linje 2 her
+Linje 3
+osv
