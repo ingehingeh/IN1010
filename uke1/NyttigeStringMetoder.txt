@@ -1,0 +1,23 @@
+# Tips/Metoder i klassen String
+
+s.charAt (pos) - return char at given position
+s.equals (s2) - return true if 2 Strings are equal
+s.substring (3,5) - return copy of content from 3-4, as new string
+split
+toLowerCase/toUpperCase
+trim
+For mer info, søk i dokumentasjon: Google; "Java 8 API String"
+
+# Konvertering til streng (3 metoder)
+
+1) Legg til en tom streng
+double tall = 5.2;
+String s = "" + tall;    (resultat av String + double = String)
+
+2) Bruk Double-klassen sin metode 'toString'
+double tall = 5.2;
+String s = Double.toString(tall);
+
+3) 2) Bruk String-klassen sin metode 'valueOf'
+double tall = 5.2;
+String s = String.valueOf(tall);

@@ -1,0 +1,4 @@
+# Nyttig info om Scanner
+
+
+System.in = Hvor du skal lese fra
