@@ -6,7 +6,7 @@ import java.io.FileNotFoundException;
 
 public class FinnEldsteNavn {
     public static void main(String[] args)
-    // Kan også håndtere unntak/exceptions med try,catch mtode
+    // Kan også håndtere unntak/exceptions med try,catch metode (mer optimalt)
     // Forklart i 'Enkel lesing og skriving i Java' notat(bokmerket)
     throws FileNotFoundException {
         File fil = new File("alder.txt");
@@ -19,7 +19,7 @@ public class FinnEldsteNavn {
             String[] biter = sc.nextLine().split(" ");
             String navn = biter[0];
 
-            //* Bruker "Wrapper"-klasse for Integer. e.g. Integer.MAX_VALU
+            //* Bruker "Wrapper"-klasse for Integer. e.g. Integer.MAX_VALUE
             // parseInt returnerer String som int (må bare inneholde heltall)
             // String alderString = biter[1]; // String fra input
             // String alderStringTrim = alderString.trim(); // fjerner whitespace
