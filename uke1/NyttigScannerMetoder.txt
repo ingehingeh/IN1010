@@ -1,4 +1,33 @@
 # Nyttig info om Scanner
 
+- må importeres fra java.util
 
-System.in = Hvor du skal lese fra
+Opretter objekt av klassen Scanner
+Konstruktøren tar argument som angir hvor du skal lese fra:
+* System.in = fra terminalen
+* Et objekt av klassen File (om lese fra fil) 
+* En tekststreng String (om lese fra streng)
+
+
+2 Hovedmåter å lese inn data med Scanner:
+* En hel linje (lagres og prosesseres videre)
+* Ett og ett "token"(ord) (vanligvis atskilt av blanke)
+
+Scanner-metoder for å lese linjevis:
+* public boolean hasNextLine()  - Er det ny linje?
+* public String nextLine()        - Leser hele linjen + linjeskift 
+(men fjerner lnijeskift før den returnerer linjen)
+
+# Lesing av ett og ett "token" (ord, tall eller andre tegn)
+* public boolean hasNext()  - Er det flere ord?
+* public String next()      - les og returner neste ord som String
+(begge hopper over innledende whitespace)
+
+# Lese/Kontrollere hvilken type, før vi leser med riktig metode
+Scanner-metoder:
+* public boolean hasNExtInt()
+* public boolean hasNextDouble()
+
+leser deretter med riktig metode
+* public int nextInt()  - les og returner neste ord som en int
+* public double nextDouble()  - les og returner neste ord som en double
