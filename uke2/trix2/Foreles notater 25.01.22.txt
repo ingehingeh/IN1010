@@ -1,0 +1,43 @@
+// Foreles notater 25.01.22
+
+
+
+Rekkefølge på å lage programmer
+1) Bestem semantikk(virkemåte) og signaturnavn, type, rekkefølge, returtype) 
+    til metodene
+2) Implementer metodene, og bestem hva skal være private data
+
+Ikke skriv ferdig program!
+Lag små deler og test alltid underveis!
+
+Skriv opp strukturen med tomme metoder og kompiler+kjør først
+Videre lag små biter og kompiler+kjør
+
+Kan i samarbeid kan man jobbe på ulike deler
+En kan lage program, annen kan lage testprogram, iht. semantikken
+
+# Bakgrunn for Enhetstesting
+- Modifikator-metode - forandrer tilstand til objekt
+- Observator-metode - leser av tilstand
+
+* Test en modifikator-metode om gangen
+* Lag gode tekster for testene
+* Lag egne test-metoder 
+
+Bør helst skrive med Javadoc(egen syntaks for å beskrive programmet/metodene)
+- Følg Javadoc syntaks
+- Kan kjøre i terminal: javadoc <program.java> og få generert beskrivelsen
+    av programmet som html filer, likt som Java-dokumentasjon
+- Anbefales, men er tidkrevende å skrive gode beskrivelser
+
+# ArrayList
+- Fleksibel array som uviderseg/trekker seg sammen etter behov
+- ArrayList <Kaniner> mineKaniner = new ArrayList <Kaniner> (); eller bare
+- ArrayList <Kaniner> mineKaniner = new ArrayList ();
+- Metoder: add, get, remove, etc // se Java-bibliotek
+
+# HashMap
+- Samling der elementene identifiseres ved en nøkkel/navn
+- HashMap<String,Kaniner> alleKaniner = new HashMap<String,Kaniner> ();
+- Metoder: put, get, remove, etc // se Java-bibliotek
+
