@@ -53,13 +53,6 @@ class Telefonbok2 {
         for (Person person : telefonbok.values()) {
             person.skrivInfo();
         }
-        
-        
-
-
-
-    
-    
-
+     
     }
 }
