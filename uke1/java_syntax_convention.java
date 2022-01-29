@@ -13,3 +13,10 @@ med kommentarer og ofte kan det være fornuftig å bruke Java-doc.
 Naming convention by Oracle(Java docs): 
 https://www.oracle.com/java/technologies/javase/codeconventions-namingconventions.html
 */
+
+class Klasse {
+    String variabel1 = "Hei";
+    double PI = 3.14;
+    double GRAVCONSTANT = 9.81;
+    String sammensattOrdHer = "jaja";
+}
