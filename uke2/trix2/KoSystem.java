@@ -11,20 +11,27 @@ import java.util.ArrayList;
 public class KoSystem{
     
     private ArrayList<KoLapp> koLapper = new ArrayList<>();
-    private int koLappTeller = 1;
+    private int teller = 1;
     private int antKunder = 0;
 
-    //Lager et nytt objekt av KoLapp, printer ut informasjon 
-    // om den og legger den til i listen over koLapper.     
+    /*
+    * Lager nytt objekt av KoLapp, legger til listen
+    * over koLapper og skriver ut info om lappen
+    */    
     public void trekkKoLapp(){
-        KoLapp nyKunde = new KoLapp(koLappTeller);
-        koLapper.add(nyKunde);
-        koLappTeller ++;
+        KoLapp nyLapp = new KoLapp(teller);
+        koLapper.add(nyLapp);
+        teller ++;
 
+        System.out.println("Du har billettnr." + nyLapp.hentNummer());
+        System.out.print("Det er " + (koLapper.size() - 1) + "foran deg i køen.");
     }
 
     //Henter ut, printer ut informasjon og fjerner den forste kolappen i lista.
     // Gir feilmelding dersom ingen kunder staar i ko.
+    /*
+    
+    */
     public void betjenKunde(){
         for (KoLapp kunde : koLapper) {
             System.out.println(kunde.hentNummer());
@@ -34,7 +41,6 @@ public class KoSystem{
             koLapper.remove(0)
 
         }
-
     }
 
     //Returnerer antall kunder som er i ko.

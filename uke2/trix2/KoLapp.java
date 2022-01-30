@@ -7,17 +7,15 @@ KoProgram - Skal ha en main-metode og en ordreløkke.
 */
 
 public class KoLapp{
-    private int koNummer = 0;
+    private int nummer = 0;
 
     //Konstruktor
     public KoLapp(int nummer){
-        koNummer = nummer;
-
+        this.nummer = nummer;
     }
 
     //Returnerer et tildelt nummer paa kolappen.    
     public int hentNummer(){
-        return koNummer;
-
+        return nummer;
     }
 }
