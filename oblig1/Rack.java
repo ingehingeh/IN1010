@@ -27,6 +27,14 @@ public class Rack {
         }
     }
 
+/* Lærer forslag på løsning til Sett inn Node:
+while ( i < mittArray.length &&  mittArray[i] != 2) i++;
+        // Enten er i >= mittArray.length eller så er mittArray[i] == 2
+        if (i < mittArray.length) {
+                mittArray[i] = 999;
+        }
+*/ 
+
     public void settInn(Node node) {
         for (int i = 0; i < maksNoder; i++) {
             //System.out.print("i= " + i);
