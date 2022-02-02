@@ -29,10 +29,4 @@ class Student {
     public int hentAvgScore() {
         return totalScore/antQuiz;
     }
-
-
-
-
-
-
 }
