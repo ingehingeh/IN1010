@@ -11,13 +11,12 @@ class Hovedprogram {
         Dataklynge saga = new Dataklynge(12);
         String filnavn = "dataklynge2.txt";
         Scanner sc = null;
-        
-
+    
         try {
             sc = new Scanner(new File(filnavn));
         }
         catch (FileNotFoundException e) {
-            System.out.println("Error: file not found");
+            System.out.println("OBS: finner ikke filen");
         }
 
         while (sc.hasNextLine()) {

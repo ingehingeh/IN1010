@@ -35,7 +35,7 @@ class Dataklynge {
         }
     }
 
-    public void skrivUtDataklynge() {
+    public void skrivUtDataklynge() { // test metode
         for (Rack rack : dataklynge) {
             System.out.println(rack + "----");
             rack.skrivUtRack();
