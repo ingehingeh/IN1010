@@ -1,12 +1,10 @@
 // IN1010 vår 22 oblig oppg 1: Dataklynge
 // Rack
 
-import java.util.ArrayList;
-
 public class Rack {
     private int maksNoder; // sette lik 12 her eller annet sted?
     // private ArrayList<Node> rack = new ArrayList<> ();
-    Node[] rack = new Node[6]; // ### bytt 6 til 12 senere ###
+    Node[] rack = new Node[12]; 
 
     public Rack(int maksNoder) {
         this.maksNoder = maksNoder;
@@ -14,11 +12,11 @@ public class Rack {
 
     public int getAntNoder() {
         int teller = 0;
-        while (rack[teller] != null) {
+        while (teller < maksNoder && rack[teller] != null) {
             teller += 1;
-        }
+         }
         // System.out.println("getAntNoder() = " + teller);
-        return teller + 1;
+        return teller;
     }
 
     public void skrivUtRack() { // egen test metode
@@ -27,14 +25,6 @@ public class Rack {
         }
     }
 
-/* Lærer forslag på løsning til Sett inn Node:
-while ( i < mittArray.length &&  mittArray[i] != 2) i++;
-        // Enten er i >= mittArray.length eller så er mittArray[i] == 2
-        if (i < mittArray.length) {
-                mittArray[i] = 999;
-        }
-*/ 
-
     public void settInn(Node node) {
         for (int i = 0; i < maksNoder; i++) {
             //System.out.print("i= " + i);
@@ -42,7 +32,7 @@ while ( i < mittArray.length &&  mittArray[i] != 2) i++;
             if (rack[i] == null){
                 rack[i] = node;
                 // System.out.print(" Node inn på plass" + i + "\n");
-                break;
+                break; // evt. bytt med lærer forslag
                 }
         }
     }
@@ -55,7 +45,7 @@ while ( i < mittArray.length &&  mittArray[i] != 2) i++;
             }
         }
         return rackProsessorer;
-        }
+    }
 
     public int noderMedNokMinne(int paakrevdMinne) {
         int antNoder = 0;

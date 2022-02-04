@@ -19,18 +19,23 @@ class DataklyngeTester {
         //---------------------------
         Dataklynge dataklynge1 = new Dataklynge(6);
 
-        dataklynge1.settInnNode(node1);
-        dataklynge1.settInnNode(node1);
-        dataklynge1.settInnNode(node1);
-        dataklynge1.settInnNode(node1);
-        dataklynge1.settInnNode(node1);
-        dataklynge1.settInnNode(node1);
-        // dataklynge1.settInnNode(node2);
-        // dataklynge1.settInnNode(node2);
-        // dataklynge1.settInnNode(node2);
-        // dataklynge1.settInnNode(node2);
+        dataklynge1.settInnNode(node1); // 1
+        dataklynge1.settInnNode(node1); // 2
+        dataklynge1.settInnNode(node1); // 3
+        dataklynge1.settInnNode(node1); // 4
+        dataklynge1.settInnNode(node1); // 5
+        dataklynge1.settInnNode(node1); // 6
 
         dataklynge1.skrivUtDataklynge();
+
+        System.out.println("dataklynge1 antProsessorer: ");
+        System.out.println(dataklynge1.antProsessorer());
+
+        System.out.println("dataklynge1 noderMedNokMinne: ");
+        System.out.println(dataklynge1.noderMedNokMinne(200));
+
+        System.out.println("dataklynge1 antRacks: ");
+        System.out.println(dataklynge1.antRacks());
 
     }
 }

@@ -8,6 +8,6 @@ class NodeTester {
 
         System.out.println(node1);
         System.out.println(node2.antProsessor());
-        System.out.println(node2.nokMinne(1240));
+        System.out.println(node2.nokMinne(124));
     }
 }
