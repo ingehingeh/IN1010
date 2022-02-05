@@ -1,4 +1,4 @@
-// IN1010 vår 22 oblig oppg 1: Dataklynge
+// IN1010 vår 22 oblig 1: Dataklynge
 // Hovedprogram2
 
 // Trix Uke 2: 02.12: Enkel lesing fra fil
