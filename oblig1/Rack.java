@@ -1,42 +1,44 @@
-// IN1010 vår 22 oblig oppg 1: Dataklynge
-// Rack
+// IN1010 vår 22 oblig 1: Dataklynge
+// Klasse for representasjon av racks i en dataklynge
 
 public class Rack {
-    private int maksNoder; // sette lik 12 her eller annet sted?
-    // private ArrayList<Node> rack = new ArrayList<> ();
+    // oppretter et Node rack der det senere kan plasseres noder
     Node[] rack = new Node[12]; 
-
+    private int maksNoder; 
+    
     public Rack(int maksNoder) {
         this.maksNoder = maksNoder;
     }
 
+    // Henter antall noder i racket
+    // @return antall noder
     public int getAntNoder() {
         int teller = 0;
         while (teller < maksNoder && rack[teller] != null) {
             teller += 1;
          }
-        // System.out.println("getAntNoder() = " + teller);
         return teller;
     }
 
-    public void skrivUtRack() { // egen test metode
+    // Egen test metode
+    public void skrivUtRack() {
         for (Node node : rack) {
             System.out.println(node);
         }
     }
 
+    // Plasserer en ny node inn i racket
+    // @param node noden som skal plasseres inn
     public void settInn(Node node) {
         for (int i = 0; i < maksNoder; i++) {
-            //System.out.print("i= " + i);
-        
             if (rack[i] == null){
                 rack[i] = node;
-                // System.out.print(" Node inn på plass" + i + "\n");
-                break; // evt. bytt med lærer forslag
+                break; // skjønner ikke hvordan gjøre dette uten å bruke break???
                 }
         }
     }
-
+    // Beregner sammenlagt antall prosessorer i nodene i et rack
+    // @return antall prosessorer
     public int antProsessorer() {
         int rackProsessorer = 0;
         for (Node node : rack) {
@@ -47,6 +49,9 @@ public class Rack {
         return rackProsessorer;
     }
 
+    // Beregner antall noder i racket med minne over gitt grense
+    // @param paakrevdMinne antall GB minne som kreves
+    // @return antall noder med tilstrekkelig minne
     public int noderMedNokMinne(int paakrevdMinne) {
         int antNoder = 0;
         for (Node node : rack) {
@@ -59,19 +64,3 @@ public class Rack {
         return antNoder;
     }
 }
-
-
-
-/* LF sin versjon av Array og Array-Loop:
-    Person[] telefonbok = new Person[10];
-    telefonbok[0] = joakim;
-    telefonbok[1] = kristin;
-    telefonbok[2] = dag;
-
-    // skriver ut info om hvert Person-objekt i Array
-    for (int i=0; i < telefonbok.length; i++) {
-        if (telefonbok[i] != null) {
-            telefonbok[i].skrivInfo();
-        }
-    }
-*/
