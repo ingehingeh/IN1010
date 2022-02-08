@@ -4,7 +4,7 @@
 public class Rack {
     // oppretter et Node rack der det senere kan plasseres noder
     Node[] rack = new Node[12]; 
-    private int maksNoder; 
+    private int maksNoder;
     
     public Rack(int maksNoder) {
         this.maksNoder = maksNoder;
@@ -64,3 +64,32 @@ public class Rack {
         return antNoder;
     }
 }
+
+/* Forslag på settInnNode uten break fra gruppelærer:
+class Rack{
+
+    private static final int maxNoder = 12;
+
+    private Node[] noder = new Node[maxNoder];
+    private int antNoder = 0;
+
+    public void leggTilNode (Node n) {
+        if (ledigPlass()) {
+            noder[antNoder] = n;
+            antNoder++;
+        }
+    }
+
+    public boolean ledigPlass () {
+        return antNoder < maxNoder;
+    }
+}
+
+Forslag fra Lærer Stein:
+        int i = 0;
+        while ( i < mittArray.length &&  mittArray[i] != 2) i++;
+        // Enten er i >= mittArray.length eller så er mittArray[i] == 2
+        if (i < mittArray.length) {
+                mittArray[i] = 999;
+        }
+*/
