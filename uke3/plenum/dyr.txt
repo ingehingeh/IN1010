@@ -1,0 +1,8 @@
+katt;pia;true 
+hund;thommas;false
+hund;kaare;true 
+katt;puser;false 
+orn;3855
+maake;89
+katt;agurk;true
+maake;198
