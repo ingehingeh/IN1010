@@ -1,1 +1,49 @@
-<mxfile host="app.diagrams.net" modified="2022-02-15T07:55:13.253Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36" version="16.5.6" etag="PVvbFlwyWjUGhapSwEUz" type="github"><diagram id="Sug7NJV51fkFbAX3WwMB">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-02-15T07:58:49.671Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36" etag="GsLhUUObJTr2zcnQp0Ix" version="16.5.6" type="github">
+  <diagram id="Sug7NJV51fkFbAX3WwMB" name="Page-1">
+    <mxGraphModel dx="780" dy="419" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="qwEbl-_jasygpq6tyhOQ-1" value="Resept" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qwEbl-_jasygpq6tyhOQ-2" value="Hvit resept" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qwEbl-_jasygpq6tyhOQ-3" value="Blå resept" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qwEbl-_jasygpq6tyhOQ-4" value="Militærresept" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qwEbl-_jasygpq6tyhOQ-5" value="P-resept" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qwEbl-_jasygpq6tyhOQ-6" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.291;entryY=1.037;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="qwEbl-_jasygpq6tyhOQ-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="250" y="260" as="sourcePoint" />
+            <mxPoint x="300" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qwEbl-_jasygpq6tyhOQ-7" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.554;entryY=1.037;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="qwEbl-_jasygpq6tyhOQ-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="260" as="sourcePoint" />
+            <mxPoint x="450" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qwEbl-_jasygpq6tyhOQ-8" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.554;entryY=1.037;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="493.52" y="150" as="sourcePoint" />
+            <mxPoint x="440" y="102.22000000000003" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qwEbl-_jasygpq6tyhOQ-9" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.291;entryY=1.037;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="335.08" y="147.78" as="sourcePoint" />
+            <mxPoint x="399.99999999999983" y="100.00000000000003" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
