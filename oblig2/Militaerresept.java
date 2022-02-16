@@ -13,12 +13,9 @@ Override = Overskriv metode i subklasse (Velger denne)
 
 public class Militaerresept extends HvitResept {
     protected Legemiddel legemiddel;
-    protected Lege utskrivendeLege;  // må implementeres
+    protected Lege utskrivendeLege;
     protected int pasientId;
-    private int reit = 3;
-    
-    private int id;         // må implementeres
-    private int TellerId;   // må implementeres
+    private int reit = 3; // starter alltid som 3
 
     public Militaerresept(Legemiddel legemiddel, Lege utskrivendeLege, int pasientId) {
         super(legemiddel, utskrivendeLege, pasientId, 3); // reit = 3

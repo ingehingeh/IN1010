@@ -14,5 +14,10 @@ public class Vanlig extends Legemiddel {
     public String hentKlasse() { // egen test metode
         return "Vanlig";
     }
+
+    @Override
+    public String toString(){
+        return super.toString() + " | Vanlig";
+    }
     
 }

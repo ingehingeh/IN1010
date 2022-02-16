@@ -5,7 +5,6 @@
 // 3 kategorier, narkotisk, vanedannende og vanlige legemidler.
 
 public class Narkotisk extends Legemiddel {
-
     int styrke;
 
     public Narkotisk(String navn, int pris, double virkestoff, int styrke) {

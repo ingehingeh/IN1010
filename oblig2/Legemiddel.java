@@ -22,15 +22,12 @@ public abstract class Legemiddel {
     public int hentId() {
         return id;
     }
-
     public String hentNavn() {
         return navn;
     }
-
     public double hentPris() {
         return pris;
     }
-
     public double hentVirkestoff() {
         return virkestoff;
     }

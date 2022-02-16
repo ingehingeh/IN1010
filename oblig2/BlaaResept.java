@@ -5,7 +5,6 @@ public class BlaaResept extends Resept {
     protected Lege utskrivendeLege;  // må implementeres
     protected int pasientId;
     protected int reit;
-    protected int pris;
     private String farge = "blaa";
 
     public BlaaResept(Legemiddel legemiddel, Lege utskrivendeLege, int pasientId, int reit) {
