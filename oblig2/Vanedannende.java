@@ -4,7 +4,7 @@
 // Del A: Legemidler
 // 3 kategorier, narkotisk, vanedannende og vanlige legemidler.
 
-public class Vanedannende extends Legemidler {
+public class Vanedannende extends Legemiddel {
 
     int styrke;
 
