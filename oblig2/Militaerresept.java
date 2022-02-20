@@ -37,3 +37,17 @@ public class Militaerresept extends HvitResept {
     
     
 }
+
+/*Retter-kommentar:
+Når du har et program som arver fra en superklasse behøver du ikke å opprette alle 
+instansvariablene som arves på nytt.
+
+F.eks. i Militaerresept, kunne du gjort slik:
+
+public class Militaerresept extends HvitResept {
+
+    public Militaerresept(Legemiddel legemiddel, Lege utskrivendeLege, int pasientId) {
+        super(legemiddel, utskrivendeLege, pasientId, 3); // reit = 3
+    }
+}
+*/
