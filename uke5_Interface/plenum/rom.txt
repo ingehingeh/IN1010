@@ -1,0 +1,5 @@
+Soverom 8 2 false
+Soverom 17 2 true
+Bad 8 1 true false false
+Kjokken 15 1 true true
+Stue 20 1 true
