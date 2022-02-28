@@ -7,7 +7,6 @@ class Lenkeliste {
 
         private Node neste;
         private int data;
-
         Node(int data){
             this.data = data;
         }
@@ -32,7 +31,7 @@ class Lenkeliste {
         }
     }
 
-    public int get(int i){
+    public int get(int i){ // get data at position/index nr. X
         int counter = 0;
         Node tmp = start;
         while (counter != i) {
@@ -43,12 +42,11 @@ class Lenkeliste {
     }
 
     public void remove(int data) {
-
         Node tmp = start;
         Node prev = null;
         
         while (tmp != null) {
-            if (start.data == data) {
+            if (start.data == data) { // om fjerner start, forskyv start
                 start = start.neste;
                 return;
             }

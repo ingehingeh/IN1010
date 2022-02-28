@@ -10,8 +10,7 @@ public class Test {
         l.remove(2);
 
         l.skrivData();
-        
-        // l.skrivData();
+        System.out.println("---------");
 
         System.out.println(l.get(2));
         System.out.println(l.get(999));
