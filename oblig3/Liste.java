@@ -1,5 +1,4 @@
-// in1010 oblig 3 
-// Tema: liste, lenkeliste, indeksert liste, stabel, kø, prioritetskø
+// IN1010 oblig 3: Lenkelister
 
 interface Liste <T> {
     int stoerrelse ();

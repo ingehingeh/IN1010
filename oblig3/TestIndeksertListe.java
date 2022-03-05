@@ -1,4 +1,6 @@
 class TestIndeksertListe {
+
+
     private static void info (int nr, String tekst) {
 	System.out.print("Test " + nr + " " + tekst + " ... ");
     }
@@ -147,4 +149,7 @@ class TestIndeksertListe {
 	      " inneholdt feil."); 
 	}
     }
+
+
+
 }
